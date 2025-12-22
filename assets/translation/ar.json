@@ -1,0 +1,23 @@
+{
+  "data": "البيانات",
+  "welcomeBack": "مرحبًا بعودتك!",
+  "enterPhoneNumber": "أدخل رقم الهاتف",
+  "password": "كلمة المرور",
+  "forgotPassword": "نسيت كلمة المرور؟",
+  "login": "تسجيل الدخول",
+  "or": "أو",
+  "home": "الرئيسية",
+  "profile": "ملفي",
+  "noAccount": "ليس لديك حساب مسجل؟",
+  "createNewAccount": "أنشئ حساباً جديداً",
+  "setNewPassword": "تعيين كلمة مرور جديدة",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "resetPassword": "إعادة تعيين كلمة المرور",
+  "createAccount": "إنشاء حساب",
+  "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+  "fullName": "الاسم كامل",
+  "phoneNumber": "رقم الهاتف",
+  "email": "البريد الإلكتروني",
+  "gender": "الجنس",
+  "save": "حفظ"
+}
