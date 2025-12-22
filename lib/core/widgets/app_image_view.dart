@@ -162,7 +162,7 @@ class AppImageView extends StatelessWidget {
                       child: ClipRRect(
                         borderRadius: radius ?? BorderRadius.zero,
                         child: Image.asset(
-                          placeHolderImage ?? Assets.imagesImagePlaceholder,
+                          placeHolderImage ?? Assets.imagesPngImagePlaceholder,
                           fit: BoxFit.fill,
                           height: height,
                           width: width,

@@ -17,5 +17,5 @@ class Urls {
       'https://www.elmin7a.com/wp-content/uploads/2021/08/noon-egypt-jobs-customer-service-agent.png';
   static const String testVideo =
       "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4";
-  static const String imagePlaceholder =Assets.imagesImagePlaceholder;
+  static final String imagePlaceholder =Assets.imagesPngImagePlaceholder;
 }

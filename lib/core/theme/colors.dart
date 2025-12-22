@@ -8,7 +8,7 @@ abstract class AppColors {
   static const Color borderLight = Color(0xFFFFFFFF);
   static const Color fillColorLight = Color(0xFFFFFFFF);
   static const Color buttonFillLight = Color(0xFFE9F0FF);
-  static const Color textLight = Color(0xFF1C2A3A);
+  static const Color textLight = Color(0xFF000000);
   static const Color lightPrimary = Color(0xFFFDFDFD);
   static const Color lightBackgroundCard = Color(0xFFFDFDFD);
   static const Color textParaLight = Color(0xFF626467);
@@ -43,7 +43,8 @@ abstract class AppColors {
   // other colors
   static const Color textWhite = Color(0xFFFDFDFD);
   static const Color textGreyed = Color(0xFF7D8A95);
-  static const Color mainAppColor = Color(0xFF1EB7CF);
+  static const Color mainAppColor = Color(0xFFA3B8A5);
+  static const Color secondAppColor = Color(0xFFD8B4B4);
   static const Color cardBackground = Color(0xFFFDFDFD);
   static const Color disabled = Color(0xFF95979A);
   static const Color icon = Color(0xFF7D8A95);

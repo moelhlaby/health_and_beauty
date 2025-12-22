@@ -1,3 +1,5 @@
+import 'package:healthAndBeauty/features/onboarding/views/onboarding_view.dart';
+
 import '../../config/export/export.dart';
 
 class AppRouter {
@@ -5,8 +7,8 @@ class AppRouter {
     dynamic args;
     if (settings.arguments != null) args = settings.arguments;
     switch (settings.name) {
-      case AppRoute.zoomImageView:
-        return MaterialPageRoute(builder: (_) => ZoomImageScreen(args: args));
+      case AppRoute.onboardingView:
+        return MaterialPageRoute(builder: (_) => OnboardingView());
 
       default:
         return MaterialPageRoute(

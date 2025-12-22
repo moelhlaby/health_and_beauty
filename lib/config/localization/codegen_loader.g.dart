@@ -35,7 +35,13 @@ class CodegenLoader extends AssetLoader{
   "phoneNumber": "رقم الهاتف",
   "email": "البريد الإلكتروني",
   "gender": "الجنس",
-  "save": "حفظ"
+  "save": "حفظ",
+  "next": "التالي",
+  "letsStart": "هيا بنا نبدأ",
+  "healthcareDescription": "لان صحتكم تهمنا نوفر لكم رعاية معتمدة من أفضل المستشفيات",
+  "fitnessPlansDescription": "جسم أقوى كل يوم خطط تدريب مصممة علشانك",
+  "exclusiveCollectionsDescription": "اكتشفوا تشكيلات حصرية مصممة خصيصاً لمن يبحثون عن التميز والجمال في أدق التفاصيل",
+  "beautyProductsDescription": "استمتعي بمجموعة واسعة من أرقى منتجات التجميل والعناية بالبشرة والشعر التي تبرز جمالك الطبيعي وتمنحك الثقة في كل إطلالة"
 };
 static const Map<String,dynamic> _en = {
   "data": "Data",
@@ -58,7 +64,13 @@ static const Map<String,dynamic> _en = {
   "phoneNumber": "Phone number",
   "email": "Email",
   "gender": "Gender",
-  "save": "Save"
+  "save": "Save",
+  "next": "Next",
+  "letsStart": "Lets Start",
+  "healthcareDescription": "Because your health matters, we provide certified care from top hospitals.",
+  "fitnessPlansDescription": "A stronger body every day with training plans designed just for you.",
+  "exclusiveCollectionsDescription": "Discover exclusive collections designed for those who seek elegance and beauty in the finest details.",
+  "beautyProductsDescription": "Enjoy a wide range of premium beauty and skincare products for hair and skin that enhance your natural beauty and give you confidence in every look."
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ar": _ar, "en": _en};
 }

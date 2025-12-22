@@ -1,32 +1,6 @@
 class AppRoute {
   static const String splashScreen = '/splashView';
   static const String onboardingView = '/onboardingView';
-  static const String onboarding1View = '/Onboarding1View';
-  static const String onboarding2View = '/Onboarding2View';
   static const String bottomNavBarScreen = '/bottomNavBarScreen';
   static const String loginScreen = '/loginScreen';
-  static const String jobDataView = '/JobDataView';
-  static const String zoomImageView = '/zoomImageView';
-  static const String signUpView = '/signUpView';
-  static const String profileInformationView = '/profileInformationView';
-  static const String customNavBar = '/customNavBar';
-  static const String forgetPasswordView = '/ForgetPasswordView';
-  static const String specialityView = '/specialityView';
-  static const String specialityDoctorsView = '/SpecialityDoctorsView';
-  static const String privacyView = 'PrivacyView';
-  static const String walletView = 'WalletView';
-  static const String personalInformationView = 'PersonalInformationView';
-  static const String rateDoctorView = '/RateDoctorView';
-  static const String filteringView = '/filteringView';
-  static const String medicalRecordsView = '/MedicalRecordsView';
-  static const String medicineView = '/MedicineView';
-  static const String searchResultsView = '/SearchResultsView';
-  static const String invoiceView = '/InvoiceView';
-  static const String familyMembersView = '/FamilyMembersView';
-  static const String ordersMedicinesView = '/OrdersMedicinesView';
-  static const String supportView = '/SupportView';
-  static const String technicalSupportView = '/TechnicalSupportView';
-  static const String orderDetailsView = '/OrderDetailsView';
-  static const String reservationsView = '/ReservationsView';
-  static const String patientDataView = '/PatientDataView';
 }

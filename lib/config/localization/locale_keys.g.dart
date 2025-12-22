@@ -24,5 +24,11 @@ abstract class  LocaleKeys {
   static const email = 'email';
   static const gender = 'gender';
   static const save = 'save';
+  static const next = 'next';
+  static const letsStart = 'letsStart';
+  static const healthcareDescription = 'healthcareDescription';
+  static const fitnessPlansDescription = 'fitnessPlansDescription';
+  static const exclusiveCollectionsDescription = 'exclusiveCollectionsDescription';
+  static const beautyProductsDescription = 'beautyProductsDescription';
 
 }

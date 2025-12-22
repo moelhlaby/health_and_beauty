@@ -41,7 +41,7 @@ class AppButton extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         shadowColor: shadowColor ?? AppColors.mainAppColor,
         elevation: elevation ?? 0.0,
-        minimumSize: Size(width ?? double.infinity, height ?? 56.h),
+        minimumSize: Size(width ?? double.infinity, height ?? 54.h),
         padding: padding ?? EdgeInsets.zero,
 
         backgroundColor: inverseColor
@@ -53,7 +53,7 @@ class AppButton extends StatelessWidget {
         backgroundBuilder: (context, states, child) {
           return Container(
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.all(Radius.circular(radius ?? 8.r)),
+              borderRadius: BorderRadius.all(Radius.circular(radius ?? 50.r)),
               border: Border.all(color: borderColor ?? Colors.transparent),
             ),
             child: child!,
@@ -61,7 +61,7 @@ class AppButton extends StatelessWidget {
         },
         side: BorderSide(color: borderColor ?? Colors.transparent),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(radius ?? 12.r)),
+          borderRadius: BorderRadius.all(Radius.circular(radius ?? 50.r)),
         ),
       ),
       onPressed: isLoading == true
@@ -95,7 +95,7 @@ class AppButton extends StatelessWidget {
                   color: inverseColor
                       ? AppColors.mainAppColor
                       : (textColor ?? DynamicColors.textColorInverse(context)),
-                ).copyWith(fontSize: fontSize ?? 16.sp, fontWeight: fontWeight),
+                ).copyWith(fontSize: fontSize ?? 20.sp, fontWeight: fontWeight??FontWeight.w700),
               ),
             ],
           ),

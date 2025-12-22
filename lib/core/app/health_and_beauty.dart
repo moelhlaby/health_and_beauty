@@ -29,7 +29,7 @@ class HealthAndBeauty extends StatelessWidget {
                 themeAnimationCurve: Curves.easeInOutCubic,
                 // navigatorObservers: [ChuckerFlutter.navigatorObserver],
                 // home: GuideView(),
-                initialRoute: AppRoute.splashScreen,
+                initialRoute: AppRoute.onboardingView,
                 onGenerateRoute: AppRouter.onGenerateRoute,
                 debugShowCheckedModeBanner: false,
                 theme: AppTheme.lightTheme,

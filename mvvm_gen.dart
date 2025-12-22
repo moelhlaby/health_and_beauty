@@ -2,13 +2,13 @@ import 'dart:developer';
 import 'dart:io';
 
 final String _capitalName =
-    'Reservations'; // like Home, Profile, OrderHistory, etc.
+    'Onboarding'; // like Home, Profile, OrderHistory, etc.
 
 final String _lowerName =
-    'reservations'; // like home, profile, orderHistory, etc.
+    'onboarding'; // like home, profile, orderHistory, etc.
 final String _lowerNamePath =
-    'reservations'; // like home, profile, order_history, etc. (used for file paths)
-final String _appName = 'health_and_beauty';
+    'onboarding'; // like home, profile, order_history, etc. (used for file paths)
+final String _appName = 'healthAndBeauty';
 
 void main() async {
   // final data = jsonDecode(await File('setup.json').readAsString());
