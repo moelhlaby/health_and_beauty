@@ -2,8 +2,15 @@ import 'package:easy_localization/easy_localization.dart';
 
 import '../../../config/export/export.dart';
 
-class OnboardingView extends StatelessWidget {
+class OnboardingView extends StatefulWidget {
   const OnboardingView({super.key});
+
+  @override
+  State<OnboardingView> createState() => _OnboardingViewState();
+}
+
+class _OnboardingViewState extends State<OnboardingView> {
+  int selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +42,7 @@ class OnboardingView extends StatelessWidget {
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
             duration: Duration(milliseconds: 400),
-            child: AppImageView(imagesList[0], fit: BoxFit.cover),
+            child: AppImageView(imagesList[selectedIndex], fit: BoxFit.cover),
           ),
           Container(
             height: MediaQuery.of(context).size.height * 0.4,
@@ -43,27 +50,33 @@ class OnboardingView extends StatelessWidget {
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [Colors.white, Colors.white.withValues(alpha: 0)],
-                stops: [0.6,1],
+                stops: [0.7, 1],
                 end: AlignmentGeometry.topCenter,
                 begin: AlignmentGeometry.bottomCenter,
               ),
             ),
           ),
           SizedBox(
-            height: MediaQuery.of(context).size.height * 0.25,
+            height: MediaQuery.of(context).size.height * 0.3,
             width: double.infinity,
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              spacing: 20.h,
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
+                Spacer(),
                 AppText(
-                  text: titlesList[0],
+                  text: titlesList[selectedIndex],
                   appTextStyle: TextStyles.styleH1Bold24(context),
                   textAlign: TextAlign.center,
                 ),
-                AppButton(title: buttonTitlesList[0]),
+                Spacer(),
+                AppButton(
+                  title: buttonTitlesList[selectedIndex],
+                  onTap: () => setState(() {
+                    selectedIndex = selectedIndex + 1;
+                  }),
+                ),
               ],
-            ).paddingSymmetric(horizontal: 24.w,vertical: 30.h),
+            ).paddingOnly(left: 24.w,right: 24.w, bottom: 30.h),
           ),
         ],
       ),
