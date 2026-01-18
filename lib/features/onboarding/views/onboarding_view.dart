@@ -71,12 +71,16 @@ class _OnboardingViewState extends State<OnboardingView> {
                 Spacer(),
                 AppButton(
                   title: buttonTitlesList[selectedIndex],
-                  onTap: () => setState(() {
-                    selectedIndex = selectedIndex + 1;
-                  }),
+                  onTap: selectedIndex == imagesList.length-1
+                      ? () => context.pushNamedAndRemoveUntil(
+                          AppRoute.loginScreen,
+                        )
+                      : () => setState(() {
+                          selectedIndex = selectedIndex + 1;
+                        }),
                 ),
               ],
-            ).paddingOnly(left: 24.w,right: 24.w, bottom: 30.h),
+            ).paddingOnly(left: 24.w, right: 24.w, bottom: 30.h),
           ),
         ],
       ),

@@ -17,13 +17,13 @@ abstract class AppColors {
   static const Color lightIconsParagraph = Color(0xFF626467);
   static const Color lightIconsMenu = Color(0xFF626467);
   static const Color lightIcons = Color(0xFF252527);
-  static const Color lightTextSubTitle = Color(0xFF666666);
+  static const Color lightTextSubTitle = Color(0xFFB0B0B0);
   static const Color dividerLight = Color(0xFFE5E7EB);
   static const Color borderRegularLight = Color(0xFFF2F2F2);
 
   // dark colors
   static const Color darkBackground = Color(0xFF181922);
-  static const Color borderDark = Color(0xFFD1D5DB);
+  static const Color borderDark = Color(0xFF000000);
   static const Color fillColorDark = Color(0xFFFFFFFF);
   static const Color buttonFillDark = Color(0xFFE9F0FF);
   static const Color textDark = Color(0xFFF2F2F2);

@@ -26,6 +26,14 @@ class Assets {
   /// assets/images/png/onboarding4.jpg
   static const String imagesPngOnboarding4 = "assets/images/png/onboarding4.jpg";
 
+  /// Assets for imagesSvgAppleIcon
+  /// assets/images/svg/apple_icon.svg
+  static const String imagesSvgAppleIcon = "assets/images/svg/apple_icon.svg";
+
+  /// Assets for imagesSvgGmailIcon
+  /// assets/images/svg/gmail_icon.svg
+  static const String imagesSvgGmailIcon = "assets/images/svg/gmail_icon.svg";
+
   /// Assets for imagesSvgPersonIcon
   /// assets/images/svg/person_icon.svg
   static const String imagesSvgPersonIcon = "assets/images/svg/person_icon.svg";

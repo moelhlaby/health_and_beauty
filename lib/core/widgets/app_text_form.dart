@@ -175,15 +175,15 @@ class AppTextField extends StatelessWidget {
                 focusedBorder: (enabled == true)
                     ? UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: focusColor ?? AppColors.mainAppColor,
+                          color: focusColor ?? DynamicColors.textFieldBorderColor(context),
                         ),
                       )
                     : OutlineInputBorder(
                         borderRadius: BorderRadius.circular(
-                          borderRadius ?? 8.r,
+                          borderRadius ?? 50.r,
                         ),
                         borderSide: BorderSide(
-                          color: focusColor ?? AppColors.mainAppColor,
+                          color: focusColor ?? DynamicColors.textFieldBorderColor(context),
                         ),
                       ),
                 enabledBorder: (enabled == true)
@@ -194,7 +194,7 @@ class AppTextField extends StatelessWidget {
                       )
                     : OutlineInputBorder(
                         borderRadius: BorderRadius.circular(
-                          borderRadius ?? 8.r,
+                          borderRadius ?? 50.r,
                         ),
                         borderSide: BorderSide(
                           color:
@@ -203,7 +203,7 @@ class AppTextField extends StatelessWidget {
                         ),
                       ),
                 errorBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(borderRadius ?? 8.r),
+                  borderRadius: BorderRadius.circular(borderRadius ?? 50.r),
                   borderSide: const BorderSide(color: AppColors.textError),
                 ),
               ),

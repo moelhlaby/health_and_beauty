@@ -50,3 +50,6 @@ export 'package:healthAndBeauty/features/profile/logic/profile_cubit.dart';
 export 'package:healthAndBeauty/features/notifications/data/api/notifications_api_services.dart';
 export 'package:healthAndBeauty/features/notifications/data/repo/notifications_repo.dart';
 export 'package:healthAndBeauty/features/notifications/logic/notifications_cubit.dart';
+export 'package:healthAndBeauty/features/authentication/data/api/authentication_api_services.dart';
+export 'package:healthAndBeauty/features/authentication/data/repo/authentication_repo.dart';
+export 'package:healthAndBeauty/features/authentication/logic/authentication_cubit.dart';

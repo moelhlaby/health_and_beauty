@@ -13,7 +13,7 @@ class ProfileView extends StatelessWidget {
       appBar: MainAppBar(
         context: context,
         centerTitle: true,
-        title: LocaleKeys.profile.tr(),
+        title: "LocaleKeys.profile.tr()",
         isArrowBack: false,
       ),
       body: const ProfileBody(),

@@ -54,6 +54,10 @@ Future<void> setupGetIt() async {
   getIt.registerLazySingleton<NotificationsRepo>(
     () => NotificationsApiServices(),
   );
+  ///!MARK: FOR Authentication  ///
+  getIt.registerFactory<AuthenticationCubit>(
+          () => AuthenticationCubit(getIt<AuthenticationRepo>()));
+  getIt.registerLazySingleton<AuthenticationRepo>(() => AuthenticationApiServices());
 
 }
 
