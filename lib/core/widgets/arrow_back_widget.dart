@@ -1,4 +1,3 @@
-
 import '../../config/export/export.dart';
 
 class ArrowBackWidget extends StatelessWidget {
@@ -8,26 +7,13 @@ class ArrowBackWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap:
-          onTap ??
-          () {
-            context.pop();
-          },
-      child: Container(
-        margin: EdgeInsets.all(5.w),
-        height: 32.h,
-        width: 32.w,
-        padding: EdgeInsets.all(6.w),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(8.r),
-          color: Colors.white38,
-        ),
-        child: Icon(
-          Icons.arrow_back_ios_new,
-          size: 20.r,
-          color: DynamicColors.textColorInverse(context),
-        ),
+    return IconButton(
+      onPressed: () => context.pop(),
+      visualDensity: VisualDensity(vertical: -4, horizontal: -4),padding: EdgeInsets.zero,
+      highlightColor: Colors.transparent,
+      icon: Icon(
+        Icons.arrow_back_outlined,
+        color: DynamicColors.textColor(context),
       ),
     );
   }

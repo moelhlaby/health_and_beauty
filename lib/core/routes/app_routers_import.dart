@@ -5,4 +5,5 @@ class AppRoute {
   static const String loginScreen = '/loginScreen';
   static const String signUpView = '/SignUpView';
   static const String forgetPasswordView = '/ForgetPasswordView';
+  static const String createNewPasswordView = '/CreateNewPasswordView';
 }

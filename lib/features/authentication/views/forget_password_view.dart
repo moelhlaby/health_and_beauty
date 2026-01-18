@@ -1,4 +1,3 @@
-
 import 'package:easy_localization/easy_localization.dart';
 
 import '../../../config/export/export.dart';
@@ -20,7 +19,10 @@ class ForgetPasswordView extends StatelessWidget {
             20.sizeBoxH,
             CustomTextField(title: LocaleKeys.enterEmail.tr()),
             40.sizeBoxH,
-            AppButton(title: LocaleKeys.send.tr()),
+            AppButton(
+              title: LocaleKeys.send.tr(),
+              onTap: () => context.pushNamed(AppRoute.createNewPasswordView),
+            ),
           ],
         ),
       ),

@@ -1,3 +1,4 @@
+import 'package:healthAndBeauty/features/authentication/views/create_new_password.dart';
 import 'package:healthAndBeauty/features/authentication/views/forget_password_view.dart';
 import 'package:healthAndBeauty/features/authentication/views/login_view.dart';
 import 'package:healthAndBeauty/features/authentication/views/signup_view.dart';
@@ -33,6 +34,14 @@ class AppRouter {
           builder: (_) => BlocProvider(
             create: (context) => getIt<AuthenticationCubit>(),
             child: ForgetPasswordView(),
+          ),
+        );
+
+      case AppRoute.createNewPasswordView:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+            create: (context) => getIt<AuthenticationCubit>(),
+            child: CreateNewPasswordView(),
           ),
         );
 

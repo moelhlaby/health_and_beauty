@@ -78,7 +78,7 @@ flutter:
     - assets/
 
   fonts:
-    - family: Tajawal
+    - family: Cairo
       fonts:
         - asset: assets/fonts/Cairo-ExtraLight.ttf
           weight: 200
